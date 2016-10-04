@@ -1,0 +1,15 @@
+{
+  "name": "my-gun-server",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Steve Ottoz <so@dev.so>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gun": "^0.3.993"
+  }
+}
