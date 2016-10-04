@@ -5,7 +5,7 @@ const app = express();
 
 const Gun = require('gun');
 const gun = Gun({
-  file: 'data.json',
+  file: 'data/data.json',
   s3: {
     key: '', // AWS Access Key
     secret: '', // AWS Secret Token
